@@ -81,7 +81,7 @@ class _TasbihHomePageState extends State<TasbihHomePage> {
               ElevatedButton(
                 onPressed: resetCounter,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.redAccent,
+                  backgroundColor: const Color.fromARGB(255, 139, 102, 102),
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   textStyle: TextStyle(fontSize: 20),
                 ),
